@@ -127,16 +127,18 @@ The Power BI dashboard includes:
 
 # Project Workflow
 
-```text
-Raw Dataset
-    ↓
-Python Data Cleaning
-    ↓
-Feature Engineering
-    ↓
-MySQL Data Storage & SQL Analysis
-    ↓
-Power BI Dashboard
-    ↓
-Business Insights & Visualization
+```mermaid
+flowchart TD
+    A[Raw Dataset]
+    B[Python Data Cleaning]
+    C[Feature Engineering]
+    D[MySQL Data Storage & SQL Analysis]
+    E[Power BI Dashboard]
+    F[Business Insights & Visualization]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 ```
