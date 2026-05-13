@@ -1,4 +1,4 @@
-# Restaurant Business Intelligence Dashboard
+# Zomato Business Intelligence Dashboard
 
 An end-to-end Data Analytics and Business Intelligence project built using Python, SQL, and Power BI to analyze restaurant trends, customer preferences, pricing patterns, and business insights from the Zomato restaurant dataset.
 
